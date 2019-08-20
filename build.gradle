@@ -27,10 +27,10 @@ dependencyManagement {
 dependencies {
     annotationProcessor "io.micronaut:micronaut-inject-java"
     annotationProcessor "io.micronaut:micronaut-validation"
-    annotationProcessor 'io.micronaut.data:micronaut-data-processor:1.0.0.BUILD-SNAPSHOT'
+    annotationProcessor 'io.micronaut.data:micronaut-data-processor:1.0.0.M1'
 
     compile "io.micronaut.configuration:micronaut-hibernate-jpa"
-    compile 'io.micronaut.data:micronaut-data-hibernate-jpa:1.0.0.BUILD-SNAPSHOT'
+    compile 'io.micronaut.data:micronaut-data-hibernate-jpa:1.0.0.M1'
     compile "io.micronaut:micronaut-http-client"
     compile "io.micronaut:micronaut-http-server-netty"
     compile "io.micronaut:micronaut-inject"
